@@ -687,11 +687,11 @@ async function generateWord(questions, paperDetails, monthyear, midTermText, dow
                     rows: [
                         new TableRow({
                             children: [
-                                new TableCell({ width: { size: 10, type: WidthType.PERCENTAGE }, children: [new Paragraph({ text: "S. No", bold: true, alignment: AlignmentType.CENTER, font: 'Times New Roman' })] }),
-                                new TableCell({ width: { size: 70, type: WidthType.PERCENTAGE }, children: [new Paragraph({ text: "Question", bold: true, alignment: AlignmentType.CENTER, font: 'Times New Roman' })] }),
-                                new TableCell({ width: { size: 10, type: WidthType.PERCENTAGE }, children: [new Paragraph({ text: "", alignment: AlignmentType.CENTER, font: 'Times New Roman' })] }),
-                                new TableCell({ width: { size: 5, type: WidthType.PERCENTAGE }, children: [new Paragraph({ text: "Unit", bold: true, alignment: AlignmentType.CENTER, font: 'Times New Roman' })] }),
-                                new TableCell({ width: { size: 5, type: WidthType.PERCENTAGE }, children: [new Paragraph({ text: "CO", bold: true, alignment: AlignmentType.CENTER, font: 'Times New Roman' })] })
+                                new TableCell({ width: { size: 10, type: WidthType.PERCENTAGE }, children: [new Paragraph({ text: "S. No", bold: true, alignment: AlignmentType.JUSTIFY, font: 'Times New Roman' })] }),
+                                new TableCell({ width: { size: 70, type: WidthType.PERCENTAGE }, children: [new Paragraph({ text: "Question", bold: true, alignment: AlignmentType.JUSTIFY, font: 'Times New Roman' })] }),
+                                new TableCell({ width: { size: 10, type: WidthType.PERCENTAGE }, children: [new Paragraph({ text: "", alignment: AlignmentType.JUSTIFY, font: 'Times New Roman' })] }),
+                                new TableCell({ width: { size: 5, type: WidthType.PERCENTAGE }, children: [new Paragraph({ text: "Unit", bold: true, alignment: AlignmentType.JUSTIFY, font: 'Times New Roman' })] }),
+                                new TableCell({ width: { size: 5, type: WidthType.PERCENTAGE }, children: [new Paragraph({ text: "CO", bold: true, alignment: AlignmentType.JUSTIFY, font: 'Times New Roman' })] })
                             ],
                             tableHeader: true
                         }),
