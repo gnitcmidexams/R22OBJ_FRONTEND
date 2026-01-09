@@ -184,7 +184,7 @@ function displayQuestionPaper(questions, paperDetails, allowEdit = true) {
                       oninput="sessionStorage.setItem('monthyear', this.innerText)">${monthyear}</span></h3>
             <p>(${paperDetails.regulation} Regulation)</p>
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px 0;">
-                <p><strong>Time:</strong> 30 Min.</p>
+                <p><strong>Time:</strong> 10 Min.</p>
                 <p><strong>Max Marks:</strong> 10</p>
             </div>
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px 0;">
@@ -460,7 +460,7 @@ async function generatePDF(questions, paperDetails, monthyear, midTermText, down
             <h3 style="font-size: 14pt; font-weight: bold; margin: 10px 0;">B.Tech ${paperDetails.year} Year ${paperDetails.semester} Semester ${midTermText} Objective Examinations ${monthyear}</h3>
             <p style="font-size: 12pt; margin: 5px 0;">(${paperDetails.regulation} Regulation)</p>
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px 0;">
-                <p style="font-size: 12pt;"><strong>Time:</strong> 30 Min.</p>
+                <p style="font-size: 12pt;"><strong>Time:</strong> 10 Min.</p>
                 <p style="font-size: 12pt;"><strong>Max Marks:</strong> 10</p>
             </div>
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px 0;">
@@ -633,7 +633,7 @@ async function generateWord(questions, paperDetails, monthyear, midTermText, dow
                             children: [
                                 new TableCell({
                                     width: { size: 50, type: WidthType.PERCENTAGE },
-                                    children: [new Paragraph({ children: [new TextRun({ text: "Time: 30 Min.", bold: true, font: 'Times New Roman' })], alignment: AlignmentType.LEFT })]
+                                    children: [new Paragraph({ children: [new TextRun({ text: "Time: 10 Min.", bold: true, font: 'Times New Roman' })], alignment: AlignmentType.LEFT })]
                                 }),
                                 new TableCell({
                                     width: { size: 50, type: WidthType.PERCENTAGE },
